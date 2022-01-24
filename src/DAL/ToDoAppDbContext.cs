@@ -7,7 +7,7 @@ namespace DAL.Data
 {
     public class ToDoAppDbContext : DbContext
     {
-        private const string _connectionString = "Data Source=.\\SQLEXPRESS; Initial Catalog=ToDoAppdb; User Id=admin;Password=adminpassword";
+        private const string _connectionString = "Data Source = .;Initial Catalog = ToDoAppdb;Integrated Security = True;TrustServerCertificate = False;";
 
         public ToDoAppDbContext()
         {
